@@ -1,0 +1,33 @@
+{
+  "chainId": "douce_2908268-1",
+  "chainName": "douce",
+  "rpc": "http://38.242.130.221:26657",
+  "rest": "http://38.242.130.221:1317",
+  "bech32Prefix": "ethm",
+  "currencies": [
+    {
+      "displayDenom": "patate",
+      "baseDenom": "upatate",
+      "decimals": 18,
+      "logo": "/logos/douce_2908268-1.png",
+      "type": "main"
+    }
+  ],
+  "coinType": 60,
+  "faucetUrl": "https://discord.com/channels/956961633165529098/1143231362468434022",
+  "website": "https://patatedouce.medium.com/",
+  "logo": "/logos/douce_2908268-1.png",
+  "ibc": {
+    "hubChannel": "channel-9280",
+    "channel": "channel-0",
+    "timeout": 172800000
+  },
+  "evm": {
+    "chainId": "0x2c606c",
+    "rpc": "http://38.242.130.221:8545"
+  },
+  "type": "RollApp",
+  "da": "Avail",
+  "description": "young node runner",
+  "analytics": true
+}
